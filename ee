@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking News: Notorious Thief Sought</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .site-header {
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .site-header .logo {
+            font-family: 'Merriweather', serif;
+            font-size: 2em;
+            font-weight: 700;
+            color: #cc0000;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            font-family: 'Merriweather', serif;
+            color: #1a1a1a;
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 2em;
+            line-height: 1.2;
+        }
+
+        .byline {
+            text-align: left;
+            font-style: normal;
+            margin-bottom: 25px;
+            color: #666;
+            font-size: 0.9em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+            font-family: 'Merriweather', serif;
+        }
+
+        .image-container {
+            margin: 25px auto;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        .alfono-img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        .image-caption {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+
+        .warning {
+            color: #c0392b;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #e74c3c;
+            background-color: #fdedec;
+            border-radius: 4px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .comments-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .comments-section h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+
+        .comment {
+            display: flex;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #eee; /* Use dashed border for comments */
+        }
+
+        .comment:last-child {
+            border-bottom: none; /* Remove border for the last comment */
+        }
+
+        .comment .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%; /* Make avatar round */
+            margin-right: 15px;
+            object-fit: cover; /* Ensure image covers the circular area */
+        }
+
+        .comment-content {
+            flex-grow: 1;
+        }
+
+        .comment-author {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .comment-author span.date {
+            font-weight: normal;
+            font-size: 0.9em;
+            color: #666;
+            margin-left: 8px;
+        }
+
+        .comment-text {
+            color: #555;
+            font-family: 'Open Sans', sans-serif; /* Keep comment text simple */
+            font-size: 0.95em;
+        }
+
+
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 30px;
+            color: #888;
+            font-size: 0.8em;
+            border-top: 1px solid #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="site-header">
+        <a href="#" class="logo">NEWS NOW</a>
+    </div>
+
+    <div class="container">
+        <h1>URGENT MANHUNT: 'Panda Bandit' Alfono Eludes Authorities After Daring Heist</h1>
+        <div class="byline">By Anonymous Reporter | <span style="color: #cc0000; font-weight: 600;">EXCLUSIVE</span> | October 26, 2023</div>
+        <p>Law enforcement agencies worldwide have launched a massive search for a notorious individual known only as 'Alfono', following a bizarre and audacious theft involving highly protected animals and an enormous quantity of vegetation.</p>
+        <p>Sources close to the investigation confirmed today that Alfono is wanted in connection with the disappearance of three juvenile giant pandas from a secure facility under mysterious circumstances. Adding to the peculiarity of the crime, approximately 5000 kilograms (that's 5 metric tons!) of high-grade bamboo was also reported missing from the same location.</p>
+        <div class="image-container">
+            <img src="/Screenshot 2025-05-06 142850.png" alt="Roblox avatar profile of SG_Alfono" class="alfono-img">
+            <div class="image-caption">Authorities have released an image of suspect Alfono, believed to be connected to the recent panda and bamboo theft. SOURCE: POLICE HANDOUT</div>
+        </div>
+        <p>Investigators are baffled by the motive behind such an unusual crime. "We've seen everything, but three pandas and five tons of bamboo? This is new territory," stated Detective Sergeant Patches O'Malley during a press conference earlier today. "We suspect Alfono may have specialized knowledge of panda dietary needs, or perhaps an extremely ambitious pet project."</p>
+        <p>Alfono is described as being of average height, unremarkable appearance, and possessing an unsettlingly calm demeanor, according to vague witness accounts. Authorities caution the public not to approach Alfono, as his behavior is unpredictable and he may be heavily armed with bamboo shoots.</p>
+        <p>Anyone with information regarding Alfono's whereabouts, or the location of the missing pandas and bamboo, is urged to contact the International Wildlife Crime Task Force immediately. A reward for information leading to his capture, and the safe return of the pandas, is being offered, though the amount of bamboo required for the reward is still under negotiation.</p>
+        <p class="warning">CITIZEN ALERT: Secure all bamboo stocks! Report any large, slow-moving vehicles or suspicious activity involving leafy green material. DO NOT APPROACH ALFONO.</p>
+
+        <div class="comments-section">
+            <h2>Comments</h2>
+            <div class="comment">
+                <img src="/doge_pfp.png" alt="minitveitan5orwhat profile picture" class="avatar">
+                <div class="comment-content">
+                    <div class="comment-author">minitveitan5orwhat <span class="date">(Oct 26, 2023)</span></div>
+                    <div class="comment-text">HE'S INNOCENT PLEASE LET BRO LIVE</div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="/generic_avatar.png" alt="Mehe profile picture" class="avatar">
+                <div class="comment-content">
+                    <div class="comment-author">Mehe <span class="date">(Oct 26, 2023)</span></div>
+                    <div class="comment-text">i found him in roblox 'Grow A Garden' just now</div>
+                </div>
+            </div>
+            <!-- More comments could be added here -->
+        </div>
+    </div>
+
+    <!-- New article section -->
+    <div class="container">
+        <h1>Follow-up: Commenter on Alfono Case Briefly Detained, Cleared</h1>
+        <div class="byline">By Anonymous Reporter | October 27, 2023</div>
+        <p>In a surprising turn of events following yesterday's report on the 'Panda Bandit' Alfono, a user known online as 'minitveitan5orwhat', who commented on our initial article professing Alfono's innocence, was briefly detained by authorities early this morning.</p>
+        <p>Law enforcement acted on a tip regarding a suspicious online account linked to 'minitveitan5orwhat', allegedly bearing the alarming username 'MrKiddoSnatcher'. The user was apprehended without incident.</p>
+        <p>However, the situation was quickly resolved when investigators discovered the 'suspicious activity' reported was merely the user's younger sister playing with toys in their basement. The 'kidnapped child' narrative turned out to be a misunderstanding based on online conversations overheard or misinterpreted by the tipster.</p>
+        <p>Sources within the police department confirmed 'minitveitan5orwhat' was fully cooperative and subsequently released with no charges filed. A police spokesperson stated, "While the account name was certainly cause for concern, it appears this was an unfortunate misunderstanding stemming from a child's imaginative playtime. We urge the public to continue reporting suspicious activity but also to be mindful of context."</p>
+        <p>Authorities have confirmed this individual is not connected to the ongoing investigation into Alfono and the missing pandas and bamboo.</p>
+    </div>
+
+    <!-- New article section -->
+    <div class="container">
+        <h1>Bamboo Bandits Strike Again: Alfono Suspect Seen Fleeing on Pony</h1>
+        <div class="byline">By Anonymous Reporter | October 29, 2023</div>
+        <p>Just two days after the previous incident, reports are flooding in about more large-scale bamboo thefts across the region, reigniting fears that the elusive 'Panda Bandit', Alfono, is back in action.</p>
+        <p>Multiple witnesses from various locations have reported the sudden disappearance of substantial quantities of bamboo from private reserves and nurseries overnight. While initial estimates vary, authorities fear the amount stolen could be comparable to the staggering five metric tons taken in the initial heist.</p>
+        <p>Adding a bizarre twist to the unfolding saga, one witness provided a highly unusual description of a suspect fleeing the scene. "I saw this figure," the witness, who wished to remain anonymous, told reporters, "dressed in a dark shirt, riding... well, riding a small horse. Like, a pony. It was surreal. He had a huge sack tied behind him, full of green stuff."</p>
+        <p>While law enforcement remains cautious, the description of the rider, combined with the nature of the theft, has led investigators to strongly suspect Alfono. The choice of a getaway vehicle described as a 'pony' has left seasoned detectives scratching their heads.</p>
+        <p>"We are following all leads, no matter how... unconventional," stated Detective Sergeant O'Malley, appearing visibly exasperated at a brief press conference. "A pony? Really? We're advising the public to remain vigilant and report any suspicious activity, especially involving small equines or excessive greenery."</p>
+        <p>The whereabouts of the stolen bamboo and the potential involvement of a pony in the getaway are currently under intense investigation. The connection, if any, to the previously stolen pandas remains unknown.</p>
+    </div>
+
+    <!-- New article section -->
+    <div class="container">
+        <h1>Caught on Camera: 'Minitveitan5orwhat' Appears Alongside Alfono in Panda Heist Footage</h1>
+        <div class="byline">By Anonymous Reporter | November 3, 2023</div>
+        <p>In a stunning development that has investigators reeling, security camera footage has surfaced purportedly showing online user 'minitveitan5orwhat', previously cleared in a related inquiry, actively participating in the recent bamboo and panda thefts alongside the primary suspect, Alfono.</p>
+        <p>The footage, obtained from a previously undisclosed location near a high-security bamboo reserve and animal habitat, appears to capture Alfono and 'minitveitan5orwhat' engaging in highly unusual behavior while in possession of one of the missing juvenile giant pandas.</p>
+        <p>"It's... perplexing," admitted Detective Sergeant Patches O'Malley, shown the grainy footage during an emergency briefing. "They weren't just stealing; they were... posing. Almost like they were aware of the cameras. At one point, 'minitveitan5orwhat' appears to be attempting a bizarre dance move while holding the panda cub, and Alfono is just standing there, looking vaguely annoyed."</p>
+        <p>The footage reportedly culminates with the pair hastily grabbing the baby panda and fleeing the scene, disappearing into the night. The involvement of 'minitveitan5orwhat', especially after their brief, unrelated detention and subsequent clearing, has added a layer of confusion to the already bizarre case.</p>
+        <p>Authorities are now actively seeking 'minitveitan5orwhat' in addition to Alfono. The public is warned that both individuals are considered unpredictable, and their motives remain entirely unclear. The condition and location of the panda cub seen in the video are currently unknown. Anyone with information is urged to contact the International Wildlife Crime Task Force immediately.</p>
+
+        <!-- Comments section for the latest article -->
+        <div class="comments-section">
+            <h2>Comments</h2>
+            <div class="comment">
+                <img src="/generic_avatar.png" alt="Panda Parent profile picture" class="avatar">
+                <div class="comment-content">
+                    <div class="comment-author">Panda Parent <span class="date">(Nov 3, 2023)</span></div>
+                    <div class="comment-text">THEY TOOK MA BABY PANDA BRUH</div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="/doge_pfp.png" alt="minitveitan5orwhat profile picture" class="avatar">
+                <div class="comment-content">
+                    <div class="comment-author">minitveitan5orwhat <span class="date">(Nov 3, 2023)</span></div>
+                    <div class="comment-text">L BOZO. EASY FREE PANDA HAHA</div>
+                </div>
+            </div>
+            <!-- More comments could be added here -->
+        </div>
+    </div>
+
+    <!-- New article section -->
+    <div class="container">
+        <h1>DEVELOPMENT: New Roblox Account 'Futrizo' Linked to 'Panda Bandit' Accomplice 'minitveitan5orwhat'</h1>
+        <div class="byline">By Anonymous Reporter | November 6, 2023</div>
+        <p>In the ongoing saga of the 'Panda Bandit' Alfono and his now-identified accomplice 'minitveitan5orwhat', investigators have uncovered a potential link to another online identity: the Roblox account 'Futrizo'.</p>
+        <p>Sources indicate that forensic analysis of online activity and digital footprints has led authorities to believe 'Futrizo' is an alternate account operated by the same individual behind 'minitveitan5orwhat', whose display name is believed to be 'Kai'. The nature of the connection is still under investigation, but the discovery suggests a wider network or planning capability than previously thought.</p>
+        <p>"We are tracking all associated online identities," confirmed Detective Sergeant O'Malley. "The individual known as 'minitveitan5orwhat', now potentially linked to 'Futrizo', is a person of interest in the panda and bamboo thefts. We urge anyone with information about either account, or the individuals behind them, to come forward."</p>
+        <p>The discovery of the 'Futrizo' account adds another layer of complexity to a case already involving stolen pandas, missing bamboo, a pony getaway, and bizarre security camera footage. Authorities continue to seek Alfono and 'minitveitan5orwhat' (aka 'Kai') and are now also monitoring activity related to 'Futrizo'.</p>
+
+        <!-- Comments section for the latest article -->
+        <div class="comments-section">
+            <h2>Comments</h2>
+            <div class="comment">
+                <img src="/Screenshot 2025-05-06 145456 (1).png" alt="witherblow profile picture" class="avatar">
+                <div class="comment-content">
+                    <div class="comment-author">witherblow <span class="date">(Nov 6, 2023)</span></div>
+                    <div class="comment-text">girl what the hell did you do kai</div>
+                </div>
+            </div>
+            <!-- More comments could be added here -->
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 Fictional News Agency. All rights reserved.
+    </div>
+</body>
+</html>
